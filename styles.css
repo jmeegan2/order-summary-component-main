@@ -1,15 +1,24 @@
 img {
     height: 100%;
 max-width: 100%;
-display: block;
+display: inline;
 margin: auto;
 
   border-radius: 20px;
 }
 
+.top-text {
+    opacity: 65%;
+    
+}
+
 p {
     text-align: center;
     
+}
+.plan-section {
+    filter: brightness(50%);
+  flex-direction: row;
 }
 button {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -20,7 +29,11 @@ button {
     border: 0px;
     margin:auto;
 }
+ 
+#music-icon {
+    flex-direction: row;
 
+}
 .pay { 
     background-color: #0000FF;
     color: white;
